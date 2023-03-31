@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding-top: 200px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+li:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+li>span {
+    font-weight: bold;
+}
+
+#cars {
+    padding: 5px 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+#list {
+    font-size: 18px;
+}
